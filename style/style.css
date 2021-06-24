@@ -1,0 +1,35 @@
+.download-button {
+  cursor: pointer;
+  max-width: 15%;
+}
+
+.form-container {
+  background-color: white;
+  min-width: 35%;
+  max-width: 90%;
+  border-radius: 15px;
+  padding: 10px 40px;
+  margin: 0 auto;
+}
+
+#bg {
+  background-color: #222;
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  #bg {
+    align-items: flex-start !important;
+  }
+
+  .form-container {
+    margin-top: 50px !important;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}

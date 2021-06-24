@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- LOOKUP FONT ICONS HERE - https://fontawesome.com/v5.15/icons?d=gallery&p=2 -->
+    <!-- MD BOOTSTRAP BUTTONS - https://mdbootstrap.com/docs/b4/jquery/components/buttons/ -->
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
+
+    <link rel="stylesheet" href="style/style.css" />
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="bg">
+      <div class="form-container shadow-lg">
+        <form action="">
+          <h2 class="text-center">Title</h2>
+          <div class="alert alert-success">Succuss alert (or danger)</div>
+
+          <!-- START FORM INPUTS -->
+          <div class="md-form">
+            <i class="fas fa-user prefix"></i>
+            <input type="text" id="inputIconEx2" class="form-control" />
+            <label for="inputIconEx2">E-mail address</label>
+          </div>
+          <!-- END FORM INPUTS -->
+          <!-- Start checkboxes -->
+          <div class="checkboxes">
+            <!-- Default checked -->
+            <div class="custom-control custom-checkbox">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="checkboxName1"
+                checked
+              />
+              <label class="custom-control-label" for="checkboxName1"
+                >Default checked</label
+              >
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="checkboxName2"
+              />
+              <label class="custom-control-label" for="checkboxName2"
+                >Default unchecked</label
+              >
+            </div>
+          </div>
+          <!-- end checkboxes -->
+          <div class="text-center mt-3">
+            <div
+              class="btn btn-lg blue-gradient"
+              onclick="downloadAction('hello world')"
+              title="Download"
+            >
+              <i class="fas fa-file-download"></i> Download
+            </div>
+          </div>
+        </form>
+        <p class="text-center p-2 mt-3">
+          Created by
+          <a target="_BLANK" href="#">Developer Name</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
